@@ -18,14 +18,16 @@ body {
 .nav-links {
     list-style-type: none;
     display: flex;
-    margin: 0;
+    margin: 3em;
 }
 
 .nav-links li {
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .nav-links a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
     text-decoration: none;
     color: #333;
 }
