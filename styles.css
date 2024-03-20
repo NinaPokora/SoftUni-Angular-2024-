@@ -1,5 +1,6 @@
 @import url(nav-styles.css);
 @import url(footer-styles.css);
+@import url(home.css);
 
 body {
     margin: 0;
