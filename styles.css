@@ -2,9 +2,19 @@
 @import url(footer-styles.css);
 @import url(home.css);
 
+
+html, body {
+    height: 100%; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+
 body {
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+main {
+    flex: 1; /* Grow to take up available space */
+}

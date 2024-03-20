@@ -18,7 +18,7 @@ main {
     top: 0;
     width: 100%;
     opacity: 0;
-    transition: opacity 3s ease-out;
+    transition: opacity 5s ease-out;
     z-index: 0; /* Ensure images stack below the active one */
 }
 
@@ -36,7 +36,7 @@ main {
 .quote {
     text-align: left;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 4em;
     margin-bottom: 3em;
 }
 
