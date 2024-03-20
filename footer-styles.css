@@ -1,0 +1,68 @@
+footer {
+    background-color: black;
+    padding: 15px 30px;
+
+}
+/*
+.heading {
+    height: 100vh
+}
+*/
+.social-icons {
+    display: flex;
+    list-style: none
+}
+.contacts, .social-media {
+    color: rgb(250, 138, 1);
+    margin-right: 2em;
+}
+
+.social-media {
+    margin-left: 5em;
+}
+
+.social-icons li a {
+    padding: 15px;
+    color: rgb(250, 138, 1);
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(250, 138, 1);
+    margin-right: 16px;
+    margin-top: 0.5em;
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+    width: 40px;
+    height: 400px
+}
+
+.social-icons li a::before,
+.social-icons li a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    transition: .5s linear
+}
+
+.social-icons li a:hover i {
+    transform: scale(1.1)
+}
+
+.social-icons li a:hover::before {
+    transform: skewX(20deg);
+    border-left: 0.1em solid;
+    border-right: 0.1em solid;
+    border-top: 0.1em solid;
+    border-radius: 50%;
+}
+
+.social-icons li a:hover::after {
+    transform: skewY(-25deg);
+    border-top: 0.1em solid;
+    border-bottom: 0.2em solid;
+    border-radius: 50%;
+}
