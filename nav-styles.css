@@ -12,6 +12,10 @@ ul {
     margin: 0;
 }
 
+i {
+    color: rgb(250, 138, 1);
+}
+
 nav img {
     height: 60px;
 }
