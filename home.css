@@ -7,9 +7,10 @@ main {
 
 .home-page-image {
     width: 23.5%; 
-    aspect-ratio: 8/11;
+    aspect-ratio: 9/12;
     overflow: hidden;
     position: relative;
+    border-radius: 2%;
 }
 
 .home-page-image img {
