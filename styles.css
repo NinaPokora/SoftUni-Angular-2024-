@@ -2,10 +2,14 @@
 @import url(footer-styles.css);
 @import url(home.css);
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 html, body {
     height: 100%; /* Full height of the viewport */
-    margin: 0; /* Remove default margin */
 }
 
 
@@ -17,4 +21,18 @@ body {
 
 main {
     flex: 1; /* Grow to take up available space */
+}
+
+
+/* Ensure paragraphs have some space between them if needed */
+main p {
+    margin-top: 1em;
+    padding: 0 20px; /* This adds space on the sides */
+}
+
+h1 {
+    font-size: 2em; /* Your desired font size */
+    margin-top: 0; /* No margin at the top */
+    padding-top: 1em; /* If you want some space above your heading */
+    /* Add other styles like font-weight, color etc. */
 }

@@ -19,6 +19,7 @@ footer {
 .contacts, .social-media {
     color: rgb(250, 138, 1);
     margin-right: 2em;
+    padding-top: 1em;
 }
 
 .social-media {
@@ -26,7 +27,7 @@ footer {
 }
 
 .social-icons li a {
-    padding: 15px;
+    padding: 0.7em;
     color: rgb(250, 138, 1);
     font-size: 20px;
     cursor: pointer;
@@ -36,8 +37,8 @@ footer {
     position: relative;
     text-align: center;
     line-height: 50px;
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
 }
 
 .social-icons li a::before,
