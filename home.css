@@ -1,8 +1,8 @@
 .main-wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: center; /* Center the items horizontally */
+    gap: 30px; /* Adds space between the image and the text */
 }
 
 .home-page-image {
@@ -45,4 +45,21 @@
     font-style: italic;
     font-size: 2em;
     text-align: right;
+}
+
+.portrait {
+    max-width: 30%; /* Maximum width is also 30% */
+    aspect-ratio: 9/11.5;
+    position: relative;
+    border-radius: 2%;
+}
+
+.portrait img {
+    width: 100%; /* Makes the image fill the container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.about-me-wrapper {
+    flex: 1; /* Takes the remaining space */
+    max-width: 70%; /* Maximum width to complement the image */
 }

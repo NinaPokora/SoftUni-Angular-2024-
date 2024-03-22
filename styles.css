@@ -17,4 +17,5 @@ body {
 
 main {
     flex: 1; /* Grow to take up available space */
+    padding: 30px;
 }
