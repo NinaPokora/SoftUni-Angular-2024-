@@ -19,6 +19,7 @@ footer {
 .contacts, .social-media {
     color: rgb(250, 138, 1);
     margin-right: 2em;
+    margin-bottom: 0;
 }
 
 .social-media {
