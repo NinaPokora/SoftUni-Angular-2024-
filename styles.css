@@ -21,13 +21,13 @@ body {
 
 main {
     flex: 1; /* Grow to take up available space */
+    padding: 30px;
 }
 
 
 /* Ensure paragraphs have some space between them if needed */
 main p {
     margin-top: 1em;
-    padding: 0 20px; /* This adds space on the sides */
 }
 
 h1 {
