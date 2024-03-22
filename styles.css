@@ -34,7 +34,9 @@ aside {
 
 /* Additional styling for aside to ensure it has a background, padding, etc., if needed. */
 .aside-container {
-    padding: 20px;
+    padding: 30px;
     background: #f5f5f5; /* Example background color */
     border-radius: 2%; /* Example border radius */
+    margin-right: 30px;
+    margin-top: 30px;
 }

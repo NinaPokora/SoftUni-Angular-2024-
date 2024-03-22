@@ -12,7 +12,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.1em;
 }
 
 h2, h3, h4, h5, h6 {
@@ -30,9 +30,19 @@ h4 { font-size: 1.4em; }
 h5 { font-size: 1.2em; }
 h6 { font-size: 1em; }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .greeting {
     font-size: 2em;
     color: rgb(250, 138, 1); 
     margin-top: 0;
     padding: 0;
+}
+
+.contact-details {
+    margin: 0;
+    padding: 1em0;
 }
