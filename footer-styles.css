@@ -1,6 +1,6 @@
 footer {
     background-color: rgb(45, 45, 45);
-    padding: 10px 30px 5px 30px;
+    padding: 5px 30px 5px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +36,7 @@ footer {
     margin-top: 0.5em;
     position: relative;
     text-align: center;
-    line-height: 50px;
+    line-height: 3em;
     width: 25px;
     height: 25px;
 }
