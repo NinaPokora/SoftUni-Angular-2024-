@@ -19,3 +19,7 @@ main {
     flex: 1; /* Grow to take up available space */
     padding: 30px;
 }
+
+aside {
+    flex: 1 0 35%;
+}

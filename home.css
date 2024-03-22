@@ -6,7 +6,7 @@
 }
 
 .home-page-image {
-    width: 23.5%; 
+    width: 25%; 
     aspect-ratio: 9/11.5;
     overflow: hidden;
     position: relative;
@@ -31,6 +31,7 @@
 .quote-wrapper {
     padding-left: 10px;
     flex-basis: 70%; 
+    margin-top: 5em;
 }
 
 .quote {
@@ -45,21 +46,21 @@
     font-style: italic;
     font-size: 2em;
     text-align: right;
+    margin-top: 2em;
 }
 
 .portrait {
-    max-width: 30%; /* Maximum width is also 30% */
-    aspect-ratio: 9/11.5;
+    max-width: 25%; /* Maximum width is also 30% */
     position: relative;
-    border-radius: 2%;
 }
 
 .portrait img {
     width: 100%; /* Makes the image fill the container */
     height: auto; /* Maintains aspect ratio */
+    border-radius: 2%;
 }
 
 .about-me-wrapper {
     flex: 1; /* Takes the remaining space */
-    max-width: 70%; /* Maximum width to complement the image */
+    max-width: 75%; /* Maximum width to complement the image */
 }
