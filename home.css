@@ -2,7 +2,7 @@
     display: flex;
     align-items: flex-start; /* Align items to the top */
     justify-content: center; /* Center the items horizontally */
-    gap: 30px; /* Adds space between the image and the text */
+    gap: 50px; /* Adds space between the image and the text */
 }
 
 .home-page-image {
