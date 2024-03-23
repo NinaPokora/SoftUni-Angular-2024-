@@ -16,6 +16,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+header {
+    width: 100%;
+    position: fixed; /* Keeps the header at the top of the viewport */
+    top: 0; /* Aligns the header at the top */
+    z-index: 1000; /* Ensures the header stays above other content */
+}
+
 main {
     flex: 3; /* Grow to take up available space */
     padding: 30px;
@@ -25,6 +32,8 @@ main {
     display: flex;
     justify-content: space-between; /* This separates the main and aside elements */
     align-items: flex-start; /* Aligns the elements to the top */
+    padding-top: 60px; /* Adjust this value to the actual height of your header */
+    padding-bottom: 30px;
 }
 
 

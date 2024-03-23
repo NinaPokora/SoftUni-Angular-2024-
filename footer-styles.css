@@ -4,6 +4,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    position: fixed;
+    /* Footer is taken out of the flow and positioned relative to the viewport */
+    bottom: 0;
+    /* Aligns the footer at the bottom */
+    z-index: 1000;
 }
 
 .footer-right {
@@ -16,7 +22,9 @@ footer {
     display: flex;
     list-style: none
 }
-.contacts, .social-media {
+
+.contacts,
+.social-media {
     color: rgb(250, 138, 1);
     margin-right: 2em;
     margin-bottom: 0;
