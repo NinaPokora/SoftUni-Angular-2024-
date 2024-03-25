@@ -2,6 +2,7 @@
 @import url(footer-styles.css);
 @import url(home.css);
 @import url(typography.css);
+@import url(cards.css);
 
 
 html, body {
