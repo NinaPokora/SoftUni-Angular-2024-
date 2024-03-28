@@ -3,6 +3,7 @@ html {
 }
 
 body, table, input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font: inherit;
 }
 
@@ -44,4 +45,8 @@ a {
 .contact-details {
     margin: 0;
     padding: 1 em;
+}
+
+.card {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
