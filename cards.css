@@ -81,7 +81,7 @@
     align-items:center;
     padding:5px 10px;
 }
-.far-fa-clock{
+i.fa-regular.fa-clock{
     font-size:18px;
     color:rgb(250, 138, 1);
 }
