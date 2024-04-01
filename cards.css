@@ -19,22 +19,7 @@
 .card:hover .heart{
     top:10px;
 }
-.heart{
-    z-index:1;
-    position:absolute;
-    top:-60px;
-    right:10px;
-    transition:all 0.5s;
-}
-.heart i{
-    font-size:22px;
-    color:rgb(250, 138, 1);
-    opacity: 90%;
-}
 
-.heart-red{
-   color:rgb(250, 138, 1) !important;
-} 
 .top-div{
     display:flex;
     justify-content:center;
@@ -99,5 +84,4 @@ i.fa-regular.fa-clock{
 .buttons:hover button{
     color:white;
     background-color:rgb(250, 138, 1);
-
 }
