@@ -14,6 +14,13 @@ footer {
     box-sizing: border-box; /* Padding and border will be included in the width */
 }
 
+
+.footer-left, .footer-right {
+    display: flex;
+    align-items: center; /* This will vertically align the items in the center */
+    justify-content: center; /* This will horizontally align the items in the center if necessary */
+}
+
 .footer-right {
     text-align: right;
     color: rgb(250, 138, 1);
@@ -21,6 +28,7 @@ footer {
 
 .social-icons {
     display: flex;
+    align-items: center;
     list-style: none
 }
 
@@ -28,7 +36,6 @@ footer {
 .social-media {
     color: rgb(250, 138, 1);
     margin-right: 2em;
-    margin-bottom: 0;
 }
 
 .social-media {
