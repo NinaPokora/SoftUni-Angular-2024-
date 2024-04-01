@@ -16,27 +16,24 @@
     cursor:pointer;
     padding-bottom: 1em;
 }
-.card:hover .heart{
-    top:10px;
-}
 
-.top-div{
+.top-div-orange{
     display:flex;
     justify-content:center;
     align-items:center;
     position:relative;
 }
-.top-div .border{
+.top-div-orange .border{
     width:100%;
     height:200px;
 }
-.top-div img{
+.top-div-orange img{
    width:100%;
    height:100%;
    object-fit:cover;
-   border-bottom: solid 2px rgb(250, 138, 1);
+   border-bottom: solid 0.2em rgb(250, 138, 1);
 }
-.top-div span{
+.top-div-orange span{
     height:28px;
     width:70px;
     background-color:rgb(250, 138, 1);
@@ -51,16 +48,16 @@
     font-size:15px;
     font-weight: 400;
 }
-.bottom-div{
+.bottom-div-orange{
     display:flex;
     flex-direction:column;
     padding:10px;
 }
-.bottom-div p{
+.bottom-div-orange p{
     font-size:15px;
     color:#A89495;
 }
-.last-section{
+.last-section-orange{
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -71,7 +68,7 @@ i.fa-regular.fa-clock{
     color:rgb(250, 138, 1);
 }
 
-.buttons button{
+.buttons-orange button{
     height:30px;
     width:100px;
     color:rgb(250, 138, 1);
@@ -81,7 +78,8 @@ i.fa-regular.fa-clock{
     border-radius:3px;
     transition:all 0.5s;
 }
-.buttons:hover button{
+.buttons-orange :hover button{
     color:white;
     background-color:rgb(250, 138, 1);
 }
+
