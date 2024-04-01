@@ -39,9 +39,9 @@ img {
 
 .card-meta {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 1.5em;
+    width: 100%; /* Ensure this takes up the full width */
 }
 
 .card-meta .title {
@@ -164,6 +164,10 @@ i.fa-regular.fa-clock {
     background-color: rgb(95, 215, 248);
 }
 
+.course {
+    background-color: rgb(211, 22, 192);
+}
+
 .price {
     color: #333;
     text-align: right;
@@ -183,12 +187,15 @@ i.fa-regular.fa-clock {
 
 .option {
     color: rgb(250, 138, 1);
-    font-weight: 500;
     margin: 0; /* Remove default paragraph margins */
 }
 
 .additional-charges {
     padding-top: 1em;
     margin: 0; /* Add if needed */
-    text-align: right;
+    width: 100%; /* Ensure this takes up the full width */
+}
+
+.additional-charges p {
+    margin: 0; /* Remove margin from the paragraphs if needed */
 }
