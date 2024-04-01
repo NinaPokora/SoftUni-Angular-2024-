@@ -38,7 +38,10 @@ img {
 }
 
 .card-meta {
-    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
 }
 
 .card-meta .title {
@@ -69,7 +72,13 @@ img {
 }
 
 .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
+    font-size: 1.5em;
+    border-top: 0.1em solid #ccc;
+    padding: 1.0em;
 }
 
 .card-footer {
@@ -131,7 +140,7 @@ i.fa-regular.fa-clock {
     margin-right: 0;
     /* Adjust this if there's padding on the .card-media that you need to offset */
     padding: 0.3em 0.6em;
-    color: white;
+    color: whitesmoke;
     font-size: 0.9em;
     font-weight: bold;
     margin-top: 0.5em;
@@ -155,6 +164,31 @@ i.fa-regular.fa-clock {
     background-color: rgb(95, 215, 248);
 }
 
+.price {
+    color: #333;
+    text-align: right;
+    font-weight: 500;
+}
+
 .tag .fas {
     font-size: 0.8em;
+}
+
+.option-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5em; /* Adds space between the option groups */
+}
+
+.option {
+    color: rgb(250, 138, 1);
+    font-weight: 500;
+    margin: 0; /* Remove default paragraph margins */
+}
+
+.additional-charges {
+    padding-top: 1em;
+    margin: 0; /* Add if needed */
+    text-align: right;
 }
