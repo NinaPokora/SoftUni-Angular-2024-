@@ -32,8 +32,8 @@ main {
     display: flex;
     justify-content: space-between; /* This separates the main and aside elements */
     align-items: flex-start; /* Aligns the elements to the top */
-    padding-top: 60px; /* Adjust this value to the actual height of your header */
-    padding-bottom: 30px;
+    padding-top: 100px; /* Adjust this value to the actual height of your header */
+    padding-bottom: 100px;
 }
 
 
