@@ -1,0 +1,56 @@
+ul {
+    list-style: none; /* Removes default list bullets */
+    padding-left: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+li {
+    position: relative; /* Needed for absolute positioning of the icon */
+    padding-left: 2em; /* Space for the icon */
+    margin-bottom: 0.5em; /* Space between list items */
+}
+
+li .fas,
+li .far {
+    position: absolute; /* Position icon absolutely within the li */
+    left: 0; /* Align icon to the left edge of li */
+    top: 0; /* Align icon to the top of li */
+    margin-top: 0.1em; /* Adjust vertical alignment of the icon */
+    /* Adjust the size of the icon if needed */
+}
+
+
+.odr-logo {
+    width: 250px;
+    height: auto;
+}
+
+.sections-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-sections {
+    display: flex;
+    justify-content: space-between;
+    /* If you want the two sections to have some space between them */
+    gap: 60px;
+}
+
+.complaints, 
+.data-protection {
+    flex: 1; /* This will make them take up equal space next to each other */
+    /* Set a max-width if you want to control how wide these sections can be */
+}
+
+.contact-form {
+    width: 100%; /* This will make the contact form take up the full width */
+    /* Add any additional styling for the contact form here */
+    padding: 1em; /* Example padding */
+}
+
+.heading-pic img {
+    width: 100%; /* Makes the image fill the container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 2%;
+}
