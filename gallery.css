@@ -1,0 +1,24 @@
+.gallery {
+    height: 200px;
+    width: auto;
+    display: inline-block; /* Places images next to each other */
+    margin-right: 10px; /* Optional: Adds some space between the images */
+    vertical-align: top; /* Aligns images at the top if they have different heights */
+    border-radius: 2%;
+}
+
+/* Assuming each section has a class that can be targeted for styling */
+section {
+    /* Ensures the images within the section do not wrap onto the next line */
+    white-space: nowrap;
+    overflow-x: auto; /* Allows for horizontal scrolling if the images overflow the section's width */
+    padding-bottom: 2em; /* Optional: Adds some space below each row of images */
+    margin-bottom: 3em;
+}
+
+/* Resets white-space property for headings if necessary */
+section h3 {
+    white-space: normal;
+}
+
+
