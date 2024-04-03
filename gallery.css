@@ -8,7 +8,7 @@
 }
 
 /* Assuming each section has a class that can be targeted for styling */
-section {
+section .gallery {
     /* Ensures the images within the section do not wrap onto the next line */
     white-space: nowrap;
     overflow-x: auto; /* Allows for horizontal scrolling if the images overflow the section's width */
